@@ -1,0 +1,44 @@
+    /*Form*/
+    input {
+        padding: 10px;
+        width: 300px;
+        font-size: 18px;
+        border-radius: 8px;
+        outline: none;
+        color: black;
+    }
+
+    #textarea {
+        width: 300px;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 8px;
+        outline: none;
+        color: black;
+    }
+
+    #input {
+        width: 300px;
+        padding: 20px;
+        color: black;
+        outline: none;
+    }
+
+    /*Form*/
+
+    /*Display*/
+    #show {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #show img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        border-radius: 50%;
+    }
