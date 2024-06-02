@@ -24,14 +24,17 @@ document.getElementById('submit').addEventListener('click', () => {
     let txtarea = document.getElementById('textarea').value;
     show.innerHTML = '';
     // Create text nodes
-    let firstTextNode = document.createTextNode(`Name: ${first}`);
-    let txtareaTextNode = document.createTextNode(`Text: ${txtarea}`);
+    let firstTextNode = document.createTextNode(first + "\n")
+    let breaker = document.createElement('br');
+    let txtareaTextNode = document.createTextNode(txtarea + "\n");
 
     // Append text nodes
     show.appendChild(firstTextNode);
+    show.append(breaker);
     show.appendChild(txtareaTextNode);
 });
 
 
+//  This is has Pushed to github/Khanzaid
 
 // Here i am practicing Hoisting in js absolutely amazing feature
